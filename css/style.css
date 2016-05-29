@@ -1,0 +1,55 @@
+header{
+    text-align: center;
+    font-size: 20px;
+}
+div.col-ld-4 {
+    font-size: 16px;
+    background-color: #8f8f8f;
+    padding: 0%;
+    margin: 1%;
+    border-style: solid;
+    border-color: black;
+    border-width: 1px;  
+    float: left;          
+}
+
+div > div{
+    margin: 0px;
+    float: right;
+    border-style: solid;
+    border-color: black;
+    border-width: 0px 0px 1px 1px; 
+    box-sizing: border-box;
+    width: 100px;  
+    text-align: center;
+}
+#tag1 {
+    background-color: brown;
+}
+
+#tag2 {
+    background-color: chocolate 
+}
+
+#tag3 {
+    background-color: burlywood
+}
+
+div > section{
+    clear: right;
+    margin: 10px;
+}
+
+@media (min-width: 768px) and (max-width: 991px){
+    div.col-md-6 {
+        box-sizing: border-box;
+        width: 48%;
+    }
+}
+
+@media (min-width: 992px){
+    div.col-ld-4 {
+        box-sizing: border-box;
+        width: 30%;
+    }
+}
